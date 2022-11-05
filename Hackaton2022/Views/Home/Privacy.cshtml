@@ -1,6 +1,26 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Problema 2";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+@*<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Ingrese párrafo para justificar</label>
+  <textarea class="form-control" id="paragraph" name="paragraph" rows="3"></textarea>
+   
+  <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Problema2", "HomeController")'">Enviar</button>
+</div>*@
+
+<div class="row">    
+    <form action="/Home/Privacy" method="post">
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Ingrese párrafo para justificar</label>
+            <div>
+            <textarea id="paragraph" name="paragraph" rows="3" cols="16" wrap="hard"></textarea>
+            </div>
+   
+             <button class="btn btn-primary" type="submit"> Enviar </button>
+        </div>         
+    </form>
+</div>
+
+@ViewBag.Paragraph
