@@ -94,7 +94,7 @@ namespace Hackaton2022.Controllers
 
                 }
 
-                ViewBag.Resultado = sumaavellanas;
+                ViewBag.Resultado = "Las avellanas que recibes son: " + sumaavellanas;
 
             }
             else
@@ -102,7 +102,7 @@ namespace Hackaton2022.Controllers
                 ViewBag.Cadenas = "No podras recibir avellanas porque la suma no coincide";
             }
 
-            return View("Problema3");
+            return View("Problema4");
         }
 
         public string binario(int numero)
