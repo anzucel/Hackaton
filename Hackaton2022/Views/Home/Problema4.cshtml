@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Problema 4";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>PROBLEMA 4 - ABUELA BINARIA</p>
+
+<div class="row">
+    <form action="/Home/Problema4" method="post">
+        <div class="col-md-3 form-horizontal">
+            <br />
+            <br />
+            <input type="text" class="form-control" name="N" placeholder="N" required>
+            <br />
+            <input type="text" class="form-control" name="num1" placeholder="num2" required>
+            <br />
+            <br />
+            <input type="text" class="form-control" name="num2" placeholder="num2" required>
+            <br />
+            <button class="btn btn-primary" type="submit">
+                Enviar
+            </button>
+        </div>
+    </form>
+</div>
+
+<h2> Las avellanas que recibes son: @ViewBag.Resultado  </h2>

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Problema 3";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>PROBLEMA 3 - CADENAS SUBSECUENTES</p>
+
+<div class="row">
+    <form action="/Home/Problema3" method="post">
+        <div class="col-md-3 form-horizontal">
+            <br />
+            <br />
+            <input type="text" class="form-control" name="Cadena1" placeholder="Cadena1" required>
+            <br />
+            <input type="text" class="form-control" name="Cadena2" placeholder="Cadena2" required>
+            <br />
+            <button class="btn btn-primary" type="submit">
+                Enviar
+            </button>
+        </div>
+    </form>
+</div>
+
+<div>
+    <h2>
+         @ViewBag.Cadenas @ViewBag.Resultado
+    </h2>
+</div>

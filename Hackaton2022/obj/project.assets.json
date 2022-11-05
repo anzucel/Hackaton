@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.csproj",
+      "projectUniqueName": "D:\\Repositorios Git\\Hackaton\\Hackaton2022\\Hackaton2022.csproj",
       "projectName": "Hackaton2022",
-      "projectPath": "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.csproj",
+      "projectPath": "D:\\Repositorios Git\\Hackaton\\Hackaton2022\\Hackaton2022.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\obj\\",
+      "outputPath": "D:\\Repositorios Git\\Hackaton\\Hackaton2022\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -63,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
