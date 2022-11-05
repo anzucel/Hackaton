@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.fsproj": {}
+    "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.fsproj": {
+    "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.fsproj",
+        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.csproj",
         "projectName": "Hackaton2022",
-        "projectPath": "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.fsproj",
+        "projectPath": "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\Hackaton2022.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\andre\\Desktop\\Hackaton2022\\Hackaton\\Hackaton2022\\obj\\",
         "projectStyle": "PackageReference",
@@ -29,24 +29,16 @@
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "FSharp.Core": {
-              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
-              "target": "Package",
-              "version": "[6.0.2, )",
-              "generatePathProperty": true
-            },
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
-              "target": "Package",
-              "version": "[6.0.3, )",
-              "generatePathProperty": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
