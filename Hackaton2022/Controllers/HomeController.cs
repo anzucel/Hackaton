@@ -120,6 +120,29 @@ namespace Hackaton2022.Controllers
             return binary;
         }
 
+        [HttpPost()]
+        public ActionResult Privacy(string paragraph)
+        {
+            if (paragraph != null)
+            {
+                string[] newParagraph = paragraph.Split("\r\n");
+                for (int i = 0; i < newParagraph.Length; i++)
+                {
+                    if(newParagraph[i].Length < 16)
+                    {
+
+                    }
+                }
+
+                return View("Privacy");
+            }
+            else
+            {
+                return View("Privacy");
+            }
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
